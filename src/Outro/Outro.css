@@ -1,0 +1,11 @@
+.outro-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%
+}
+
+.outro-container img {
+    max-width: 25%;
+    min-width: 200px;
+}

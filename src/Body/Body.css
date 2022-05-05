@@ -1,0 +1,27 @@
+.body-container {
+
+}
+
+.body-egg {
+    display: flex;
+    flex-flow: row wrap;
+}
+.body-egg img{
+    width: 50%;
+}
+
+.body-egg p{
+    font-size: 18px;
+}
+
+.body-cup {
+    display: flex;
+    flex-flow: row wrap;
+}
+.body-cup img{
+    width: 50%;
+}
+
+.body-cup p{
+    font-size: 18px;
+}

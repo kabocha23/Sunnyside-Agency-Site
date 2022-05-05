@@ -1,0 +1,17 @@
+.navbar-container {
+    background-color: #3dbeff;
+    color: white;
+    display: flex;
+}
+
+.navbar-title {
+    width: 20%;
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    margin-left: auto; 
+    margin-right: 0;
+}

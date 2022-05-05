@@ -1,0 +1,17 @@
+.header-container {
+    display: block;
+    width: 100%;
+    max-width: 1440px;
+    min-width: 375px;
+}
+
+.header-title {
+    background-color: #3dbeff;
+    color: white;
+}
+
+.header-image img {
+    width: 100%;
+    max-width: 1440px;
+    min-width: 375px;
+}
