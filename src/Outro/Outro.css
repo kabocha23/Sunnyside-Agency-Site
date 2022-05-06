@@ -5,7 +5,18 @@
     width: 100%
 }
 
-.outro-container img {
-    max-width: 25%;
-    min-width: 200px;
+.outro-first {
+    max-width: 50%;
+    min-width: 375px;
+}
+.outro-first img {
+    width: 50%;
+}
+
+.outro-second {
+    max-width: 50%;
+    min-width: 375px;
+}
+.outro-second img {
+    width: 50%;
 }

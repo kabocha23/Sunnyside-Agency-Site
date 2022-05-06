@@ -15,25 +15,31 @@ class Testimonials extends Component{
                 <div className='testimonials-title'>
                     <p>CLIENT TESTIMONIALS</p>
                 </div>
-                <div className='testimonials-title'>
-                    <Testimonial
-                        profilePic={imageEmily}
-                        blurb="We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always a hit"
-                        name="Emily R."
-                        occupation="Managing Director"
-                    />
-                    <Testimonial
-                        profilePic={imageThomas}
-                        blurb="Sunnyside's enthusiasm coupled with their keen interest in our brand;s success made it a satisfying and enjoyable experience."
-                        name="Thomas S."
-                        occupation="Chief Operating Officer"
-                    />
-                    <Testimonial
-                        profilePic={imageJennie}
-                        blurb="Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!"
-                        name="Jennie F."
-                        occupation="Business Owner"
-                    />
+                <div className='testimonials-boxes'>
+                    <div className='testimonials-box'>
+                        <Testimonial
+                            profilePic={imageEmily}
+                            blurb="We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always a hit"
+                            name="Emily R."
+                            occupation="Managing Director"
+                        />
+                    </div>
+                    <div className='testimonials-box'>
+                        <Testimonial
+                            profilePic={imageThomas}
+                            blurb="Sunnyside's enthusiasm coupled with their keen interest in our brand;s success made it a satisfying and enjoyable experience."
+                            name="Thomas S."
+                            occupation="Chief Operating Officer"
+                        />
+                    </div>
+                    <div className='testimonials-box'>
+                        <Testimonial
+                            profilePic={imageJennie}
+                            blurb="Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!"
+                            name="Jennie F."
+                            occupation="Business Owner"
+                        />
+                    </div>
                 </div>
             </div>
         )

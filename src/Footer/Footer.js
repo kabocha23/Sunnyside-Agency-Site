@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import './Footer.css';
+import FBIcon from '../images/icon-facebook.svg';
+import IGIcon from '../images/icon-instagram.svg';
+import TwtrIcon from '../images/icon-twitter.svg';
+import PinsIcon from '../images/icon-pinterest.svg';
 
 class Footer extends Component{
 
@@ -9,17 +13,28 @@ class Footer extends Component{
                 <div className='footer-title'>
                     <p>sunnyside</p>
                 </div>
-                <div className='footer-about'>
-                    <p>About</p>
+                <div className='footer-links'>
+                    <div className='footer-link'>
+                        <p>About</p>
+                    </div>
+                    <div className='footer-link'>
+                        <p>Services</p>
+                    </div>
+                    <div className='footer-link'>
+                        <p>Projects</p>
+                    </div>
                 </div>
-                <div className='footer-services'>
-                    <p>Services</p>
-                </div>
-                <div className='footer-projects'>
-                    <p>Projects</p>
-                </div>
-                <div className='footer-contact'>
-
+                <div className='footer-contacts'>
+                    <div className='footer-contact'>
+                        <a><img src={FBIcon} alt='fb'/></a>                 </div>
+                    <div className='footer-contact'>
+                        <a><img src={IGIcon} alt='ig'/></a>                 </div>
+                    <div className='footer-contact'>
+                        <a><img src={TwtrIcon} alt='twtr'/></a>
+                    </div>
+                    <div className='footer-contact'>
+                        <a><img src={PinsIcon} alt='pins'/></a>
+                    </div>
                 </div>
             </div>
         )

@@ -1,0 +1,16 @@
+.testimonials-container {
+
+}
+.testimonials-title {
+    text-align: center;
+}
+.testimonials-boxes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0 auto;
+}
+.testimonials-box {
+    width: 25%;
+}
