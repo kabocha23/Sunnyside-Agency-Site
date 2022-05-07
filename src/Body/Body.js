@@ -12,23 +12,25 @@ class Body extends Component{
                         <img src={require('../images/image-transform.jpg')} alt='egg' />                        
                     </div>
                     <div className='body-egg-text'>
-                        <p>Transform your brand</p>
+                        <h1>Transform your brand</h1>
                         <p>We are a full-service creative agency specializing in helping brands grow fast.Engage your client through compelling visuals that do most of the marketing for you.</p>
                         <a><p>LEARN MORE</p></a>
                     </div>
                 </div>
+
                 {/*  Stand out - Cup picture row */}
                 <div className='body-cup'>
                     <div className='body-cup-image'>
                         <img src={require('../images/image-stand-out.jpg')} alt='cup'/>
                     </div>
                     <div className='body-cup-text'>
-                        <p>Stand out to the right audience</p>
+                        <h1>Stand out to the right audience</h1>
                         <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.</p>
                         <a><p>LEARN MORE</p></a>
                     </div>
                     
                 </div>
+
                 {/* Graphic design - Photography row */}
                 <div className='body-cherry-orange'>
                     <div className='body-graphic'>
