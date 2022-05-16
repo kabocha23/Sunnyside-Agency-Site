@@ -2,6 +2,7 @@
     text-align: center;
     background-color: #88ccbf;
     color: #256c5e;
+    min-width: 477px;
 }
 .footer-title {
     font-size: 18px;

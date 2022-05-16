@@ -2,23 +2,24 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    width: 100%
+    width: 100%;
+    min-width: 477px;
 }
 
 .outro-first {
     max-width: 50%;
-    min-width: 375px;
-    height: 100%;
+    min-width: 477px;
 }
 .outro-first img {
+    height: 100%;
     width: 50%;
 }
 
 .outro-second {
     max-width: 50%;
-    min-width: 375px;
-    height: 100%;
+    min-width: 477px;
 }
 .outro-second img {
+    height: 100%;
     width: 50%;
 }
