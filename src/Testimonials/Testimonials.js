@@ -27,7 +27,7 @@ class Testimonials extends Component{
                     <div className='testimonials-box'>
                         <Testimonial
                             profilePic={imageThomas}
-                            blurb="Sunnyside's enthusiasm coupled with their keen interest in our brand;s success made it a satisfying and enjoyable experience."
+                            blurb="Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience."
                             name="Thomas S."
                             occupation="Chief Operating Officer"
                         />

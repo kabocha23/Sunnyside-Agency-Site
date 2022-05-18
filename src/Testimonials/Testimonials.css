@@ -1,7 +1,13 @@
 .testimonials-container {
-    min-width: 477px;
+    width: 100%;
 }
 .testimonials-title {
+    margin: 5% auto;
+    padding-top: 10px;
+}
+.testimonials-title p {
+    font-family: 'Fraunces', serif;
+    color: gray;
     text-align: center;
 }
 .testimonials-boxes {
@@ -9,8 +15,11 @@
     flex-flow: row wrap;
     justify-content: space-evenly;
     width: 90%;
-    margin: 0 auto;
+    margin: 5% auto;
 }
 .testimonials-box {
-    width: 25%;
+    height: 30%;
+    width: 30%;
+    min-width: 477px;
+    margin: 40px auto;
 }

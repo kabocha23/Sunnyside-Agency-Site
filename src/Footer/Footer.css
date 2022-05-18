@@ -3,9 +3,19 @@
     background-color: #88ccbf;
     color: #256c5e;
     min-width: 477px;
+    height: 200px;
 }
 .footer-title {
+    padding-top: 5%;
+}
+.footer-title h2 {
+    font-family: 'barlow', serif;
+    margin: 0px 0px;
+}
+.footer-title p {
     font-size: 18px;
+    font-family: 'barlow', serif;
+    margin: 0px 0px;
 }
 .footer-links {
     display: flex;

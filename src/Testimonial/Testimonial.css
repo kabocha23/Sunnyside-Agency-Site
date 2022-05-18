@@ -6,4 +6,17 @@
     border-radius: 100px;
     height: 75px;
 }
-
+#blurb {
+    width: 80%;
+    margin: 40px auto;
+    font-family: 'Barlow', serif;
+    font-size: 18px;
+    color: gray;
+}
+#name {
+    font-family: 'Fraunces', serif;
+}
+#occupation {
+    font-family: 'Barlow', serif;
+    color: gray;
+}

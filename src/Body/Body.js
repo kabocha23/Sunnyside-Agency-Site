@@ -14,7 +14,7 @@ class Body extends Component{
                     <div className='body-egg-text'>
                         <h1>Transform your brand</h1>
                         <p>We are a full-service creative agency specializing in helping brands grow fast.Engage your client through compelling visuals that do most of the marketing for you.</p>
-                        <a><p>LEARN MORE</p></a>
+                        <a><h3>LEARN MORE</h3></a>
                     </div>
                 </div>
 
@@ -26,7 +26,7 @@ class Body extends Component{
                     <div className='body-cup-text'>
                         <h1>Stand out to the right audience</h1>
                         <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.</p>
-                        <a><p>LEARN MORE</p></a>
+                        <a><h3>LEARN MORE</h3></a>
                     </div>
                     
                 </div>
@@ -38,7 +38,7 @@ class Body extends Component{
                             <img src={require('../images/image-graphic-design.jpg')} alt='cherry'/>                            
                         </div>
                         <div className='body-graphic-text'>
-                            <p>Graphic Design</p>
+                            <h2>Graphic Design</h2>
                             <p>Great design makes you memorable. We deliver artwork that underscored your brand message and captures potential clients' attention.</p>    
                         </div>
 
@@ -48,7 +48,7 @@ class Body extends Component{
                             <img src={require('../images/image-photography.jpg')} alt='orange'/>
                         </div>
                         <div className='body-photography-text'>
-                            <p>Photography</p>
+                            <h2>Photography</h2>
                             <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
                         </div>
                     </div>
