@@ -10,18 +10,10 @@ class Navbar extends Component{
                     <p>sunnyside</p>
                 </div>
                 <div className='navbar-menu'>
-                    <div className='navbar-about'>
-                        <p>About</p>
-                    </div>
-                    <div className='navbar-services'>
-                        <p>Services</p>
-                    </div>
-                    <div className='navbar-projects'>
-                        <p>Projects</p>
-                    </div>
-                    <div className='navbar-contact'>
-                        <p>Contact</p>
-                    </div>
+                        <a><p>About</p></a>
+                        <a><p>Services</p></a>
+                        <a><p>Projects</p></a>
+                        <a><p>Contact</p></a>
                 </div>
             </div>
         )

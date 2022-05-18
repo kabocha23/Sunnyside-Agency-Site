@@ -3,7 +3,8 @@
     background-color: #88ccbf;
     color: #256c5e;
     min-width: 477px;
-    height: 200px;
+    height: 20%;
+    min-height: 200px;
 }
 .footer-title {
     padding-top: 5%;
@@ -13,7 +14,7 @@
     margin: 0px 0px;
 }
 .footer-title p {
-    font-size: 18px;
+    font-size: 25px;
     font-family: 'barlow', serif;
     margin: 0px 0px;
 }
@@ -21,13 +22,26 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    margin: 0 auto;
-    width: 200px;
+    margin: 0px auto;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    width: 20%;
+    min-width: 200px;
+}
+.footer-links a:hover {
+    color: white;
+    cursor: pointer;
 }
 .footer-contacts {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    margin: 0 auto;
-    width: 200px;
+    margin: 0px auto;
+    padding-bottom: 2.5%;
+    width: 20%;
+    min-width: 200px;
+}
+.footer-contacts img:hover {
+    cursor: pointer;
+    filter: brightness(0) invert(1);
 }

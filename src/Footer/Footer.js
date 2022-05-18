@@ -15,13 +15,13 @@ class Footer extends Component{
                 </div>
                 <div className='footer-links'>
                     <div className='footer-link'>
-                        <p>About</p>
+                        <a><p>About</p></a>                  
                     </div>
                     <div className='footer-link'>
-                        <p>Services</p>
+                        <a><p>Services</p></a>
                     </div>
                     <div className='footer-link'>
-                        <p>Projects</p>
+                        <a><p>Projects</p></a>
                     </div>
                 </div>
                 <div className='footer-contacts'>
