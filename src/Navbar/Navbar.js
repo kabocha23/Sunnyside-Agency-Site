@@ -9,12 +9,12 @@ class Navbar extends Component{
                 <div className='navbar-title'>
                     <p>sunnyside</p>
                 </div>
-                <div className='navbar-menu'>
+                <nav className='navbar-menu'>
                         <a><p>About</p></a>
                         <a><p>Services</p></a>
                         <a><p>Projects</p></a>
                         <a><p>Contact</p></a>
-                </div>
+                </nav>
             </div>
         )
     }
